@@ -3,7 +3,7 @@ body{
 	font: 16px Arial, Helvetica , sans-serif;
 }
 .fundo{
-	background-image: url('imagens/fundo.jpg');
+	background-image: url('fundo.jpg');
     background-size: cover;
     height: 820px;
 }
