@@ -1,0 +1,64 @@
+body{
+	background: black;
+	font: 16px Arial, Helvetica , sans-serif;
+}
+.fundo{
+	background-image: url('imagens/fundo.jpg');
+    background-size: cover;
+    height: 820px;
+}
+#cabecalho{
+	background: black;
+		
+}
+#menu{
+	float: right;
+	padding: 32px;
+}
+#marca{
+	background: black;
+	text-align: center;
+	color: white;
+
+}
+
+#formulario{
+	text-align: center;
+}
+
+.formulario{
+	border: 5px ridge black;
+	margin: 10px;
+	padding: 10px;
+	width: 260px;
+}
+#enviar{
+	border: 5px ridge black;
+	margin: 10px;
+	padding: 5px;
+	width: 90px;
+	background: black;
+	text-align: center;
+	color: blue;
+
+
+}
+a{
+	color: white;
+	text-decoration: none;
+	padding: 18px;
+}
+
+a:link,a:visited{
+	color: white;
+}
+
+a:hover{
+	color: blue;
+	background: white;
+	padding: 10px;
+}
+
+div{
+clear: both;
+}

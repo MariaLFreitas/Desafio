@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Contato- OCCAM Engenharia</title>
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+	</head>
+	<body>
+		
+		<div class="fundo">
+
+			<div id="cabecalho">
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<img src="imagens/occam.png" width="410" height="80">
+					<div id="menu">
+						<a href="home.html">HOME</a>
+						<a href="home.html">EQUIPE</a>
+						<a href="home.html">QUEM SOMOS</a>
+						<a href="contato.html">CONTATO</a>
+					</div>
+				
+			</div>
+
+				<div >
+					<form id="formulario">
+						<input type="text" name="nome" placeholder="Nome Completo" class="formulario"><br>
+						<input type="text" name="nome" placeholder="E-mail" class="formulario"><br>
+						<input type="text" name="nome" placeholder="Mensagem" class="formulario" id="script"><br>
+						<button id="enviar">Enviar</button>
+
+					</form>
+				</div>
+
+		</div>
+
+		<div id="marca">
+				<h4>&copy;2020 por OCCAM Engenharia - Empresa Júnior de Engenharia de Computação</h4>
+		</div>
+		<script type="text/javascript">
+			var input= document.querySelector('input#script');
+			var botao= document.querySelector('button#enviar');
+			botao.onclick = function(){
+				var texto = input.value;
+				alert('A Mesagem enviada foi: ' + texto);
+			}
+		</script>
+
+	</body>
+</html>
